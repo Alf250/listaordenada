@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="c.elpack.listaordenada.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Orden por"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/AZid"
+        android:orderInCategory="2"
+        android:title="A - Z"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ZAid"
+        android:orderInCategory="2"
+        android:title="Z - A"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pmasid"
+        android:orderInCategory="2"
+        android:title="Precio: Mayor - Menor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pmenid"
+        android:orderInCategory="2"
+        android:title="Precio: Menor - Mayor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cmasid"
+        android:orderInCategory="2"
+        android:title="Cantidad: Mayor - Menor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cmenid"
+        android:orderInCategory="2"
+        android:title="Cantidad: Menor - Mayor"
+        app:showAsAction="never" />
+
+</menu>
